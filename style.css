@@ -1,0 +1,81 @@
+/* import link to google fonts here */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #171717;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* header styling */
+
+header {
+    background-color: #363535;
+    color: white;
+    height: 50px;
+    width: 100vw;
+    padding-left: 10px;
+}
+
+#logo {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    float: left;
+    text-decoration: none;
+    color: white;   
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 1px;
+    padding-right: 10px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu a:hover {
+    font-size: 120%;
+}
+
+/* title styling */
+
+#title-outer {
+    border: black 5px solid;
+    width: 100%;
+    text-size-adjust: 80%;
+    padding-bottom: 10px;
+}
+
+#title {
+    font-size: 350%;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+/* hero image styling */
+
+#hero-image {
+    height: auto;
+    width: 600px;
+    background: url("assets/img/hero-image-mobile.jpg") no-repeat center center;
+}
