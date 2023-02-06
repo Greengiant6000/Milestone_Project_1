@@ -26,16 +26,14 @@ header {
 
 #logo {
     text-transform: uppercase;
-    letter-spacing: 1px;
     float: left;
     text-decoration: none;
     color: white;   
 }
 
 #menu {
-    font-size: 110%;
+    text-transform: uppercase;
     list-style-type: none;
-    letter-spacing: 1px;
     padding-right: 10px;
 }
 
@@ -54,7 +52,7 @@ header {
 }
 
 #menu a:hover {
-    font-size: 120%;
+    font-size: 110%;
 }
 
 /* title styling */
@@ -75,7 +73,33 @@ header {
 /* hero image styling */
 
 #hero-image {
-    height: auto;
-    width: 600px;
     background: url("assets/img/hero-image-mobile.jpg") no-repeat center center;
+}
+
+/* small print styling */
+
+.credit {
+    border: black 5px solid;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.credit a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* button styling */
+
+.sign-up {
+    background-color: rgba(137, 137, 137, 0.395);
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 150%;
+    text-transform: uppercase;
+    border: 5px white solid;
 }
