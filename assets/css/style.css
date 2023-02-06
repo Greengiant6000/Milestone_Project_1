@@ -30,18 +30,17 @@ header {
     float: left;
     text-decoration: none;
     color: white;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 #menu {
     text-transform: uppercase;
     list-style-type: none;
-    padding-right: 10px;
 }
 
 #menu li {
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #menu a {
@@ -82,16 +81,14 @@ header {
 
 .credit {
     border: black 5px solid;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    padding: 10px;
 }
 
 .credit a {
     text-transform: uppercase;
     text-decoration: none;
     color: inherit;
+    padding-bottom: 10px;
 }
 
 /* button styling */
@@ -111,7 +108,7 @@ header {
 /* About the game styling */
 
 .header {
-    font-size: 175%;
+    font-size: 250%;
     text-decoration: underline;
     text-decoration-color: white;
     margin-bottom: 20px;
@@ -120,9 +117,14 @@ header {
 #about {
     border-bottom: 5px black solid;
     padding: 20px;
-    font-size: 150%;
     background-color: black;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
 }
+
+p {
+    font-size: 150%;
+}
+
+/* gallery section styling */
