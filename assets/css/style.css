@@ -28,7 +28,8 @@ header {
     text-transform: uppercase;
     float: left;
     text-decoration: none;
-    color: white;   
+    color: white;
+    margin-left: 5px;
 }
 
 #menu {
@@ -102,4 +103,8 @@ header {
     font-size: 150%;
     text-transform: uppercase;
     border: 5px white solid;
+    margin: 20px;
 }
+
+/* About the game styling */
+
