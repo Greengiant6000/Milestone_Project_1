@@ -110,10 +110,17 @@ header {
 
 /* About the game styling */
 
+.header {
+    font-size: 175%;
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin-bottom: 20px;
+}
+
 #about {
     border-bottom: 5px black solid;
     padding: 20px;
-    font-size: 120%;
+    font-size: 150%;
     background-color: black;
     margin-left: 20px;
     margin-right: 20px;
