@@ -129,3 +129,8 @@ p {
 
 /* gallery section styling */
 
+#gallery {
+    margin: 0;
+    padding: 10px;
+    
+}
