@@ -1,10 +1,14 @@
 /* import link to google fonts here */
 
+/* WILDCARD */
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+/* BODY */
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,7 +18,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* header styling */
+/* HEADER */
 
 header {
     background-color: #363535;
@@ -55,10 +59,10 @@ header {
     font-size: 110%;
 }
 
-/* title styling */
+/* TITLE */
 
 #title-outer {
-    border: black 5px solid;
+    border-top: black 5px solid;
     width: 100%;
     text-size-adjust: 80%;
     padding-bottom: 10px;
@@ -68,15 +72,16 @@ header {
     font-size: 350%;
     text-transform: uppercase;
     padding-bottom: 10px;
+    color: gold;
 }
 
-/* hero image styling */
+/* HERO IMAGE */
 
 #hero-image {
     background: url("assets/img/hero-image-mobile.jpg") no-repeat center center;
 }
 
-/* small print styling */
+/* CREDIT */
 
 .credit {
     border: black 5px solid;
@@ -91,7 +96,7 @@ header {
     padding-bottom: 10px;
 }
 
-/* button styling */
+/* BUTTON */
 
 .sign-up {
     background-color: rgba(137, 137, 137, 0.395);
@@ -104,12 +109,13 @@ header {
     letter-spacing: 2px;
 }
 
-/* About the game styling */
+/* ABOUT */
 
 .header {
     font-size: 250%;
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: gold;
+    color: gold;
     margin: 20px;
 }
 
@@ -125,4 +131,8 @@ p {
     font-size: 150%;
 }
 
-/* gallery section styling */
+/* GALLERY */
+
+/* FEATURES */
+
+/* RESPONSIVE */
