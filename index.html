@@ -36,7 +36,7 @@
         <div id="title-outer">
             <h1 id="title">The Dark Castle</h1>
             <h4>A brand new title by Bygone.Inc...</h4>
-            <h5>Do you dare enter?</h5>
+            <br><strong>Do you dare enter The Dark Castle?</strong></p>
         </div>
     </section>
 
@@ -60,18 +60,19 @@
     <article>
         <div id="about">
             <h2 class="heading">About the game</h2>
-            <p>The Dark Castle is an action/adventure game with RPG elements set in the late 1800s. You play as a treasure hutning adventurer in search of the lost city of Xanadu and the lost treasures of Kubla Kahn. When you reach the fabled entrance to the underground vault, at the end of the river Alf, you find more than you bargained for... Search through over 12 open-world levels. Explore ancient caverns and forgotten secrets. Fight, craft and quest your way through this once stately, pleasure dome to escape back into the real world! The fortress awaits, with ghost and ghoul a plenty in over 30 hours of heart-wrenching gameplay!
-                <hr><br><strong>Do you dare enter The Dark Castle?</strong></p>
+            <p>The Dark Castle is an action/adventure game with RPG elements set in the late 1800s. You play as an ambitious adventurer in search of the lost treasures of Kubla Kahn. When you reach the fabled entrance to the underground vault, at the end of the river Alf, you find more than you bargained for... Search through over 12 open-world levels. Explore ancient caverns and forgotten secrets. Fight, craft and quest your way through this once stately, pleasure dome to escape back into the real world! The fortress awaits, with ghost and ghoul a plenty in over 30 hours of heart-wrenching gameplay!
         </div>
+        <br><strong>Do you dare enter The Dark Castle?</strong></p>
+
     </article>
 
     <button class="sign-up">Sign up to the closed Beta today!</button>
 
 <!-- GALLERY -->
 
-    <section>
+    <section id="gallery">
         <h2 class="heading">Gallery</h2>
-        <div id="gallery">
+        <div >
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -149,11 +150,11 @@
 
 <!-- FORM -->
 
-    <form action="#" method="POST">
+    <form action="#" method="POST" class="form-outer">
         <h2 class="heading">Sign up to the closed Beta!</h2>
-        <h3>Only 5000 spots available... Sign up now to reserve your spot!</h3>
+        <h5>Only 5000 spots available... Sign up now to reserve your spot!</h5>
         <label for="how">How did you hear about The Dark Castle?</label>
-        <select name="how" id="how">
+        <select name="how" id="how" class="box-style" required>
             <option value="mouth">Word of mouth</option>
             <option value="email">Email blast</option>
             <option value="website">The Bygone.Inc website</option>
@@ -163,8 +164,9 @@
             <option value="tv">From a Television advertisement</option>
             <option value="other">Other</option>
         </select>
+        <br>
         <label for="play">Have you ever played a Bygone.Inc game before?</label>
-        <select name="play" id="play">
+        <select name="play" id="play" class="box-style" required>
             <option value="uncorruptable">Uncorruptable</option>
             <option value="blue">The Blue Knight</option>
             <option value="machine">Machine Soul</option>
@@ -172,15 +174,17 @@
             <option value="planesailer">Planesailer</option>
             <option value="no">No</option>
         </select>
+        <br>
         <label for="email">Your Email here:</label>
-        <input id="email" name="email" type="email">
-        <input type="submit" value="Submit">
+        <input id="email" name="email" type="email" class="box-style" required>
+        <br>
+        <input type="submit" value="Submit" class="box-style" id="submit">
     </form>
     
     <!-- FOOTER -->
 
     <footer>
-        <ul>
+        <ul class="social-media">
             <li></li>
             <li></li>
             <li></li>

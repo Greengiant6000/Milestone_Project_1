@@ -16,6 +16,7 @@ body {
     color: white;
     text-align: center;
     letter-spacing: 2px;
+    margin: 0 auto;
 }
 
 /* HEADER */
@@ -25,7 +26,7 @@ header {
     color: gold;
     height: 75px;
     width: 100vw;
-    padding-left: 10px;
+    padding-left: 20px;
     overflow: none;
 }
 
@@ -43,8 +44,9 @@ header {
 
 #menu li {
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
     color: paleturquoise;
+    display: inline;
 }
 
 #menu a {
@@ -63,7 +65,6 @@ header {
 /* TITLE */
 
 #title-outer {
-    border-top: black 5px solid;
     width: 100%;
     text-size-adjust: 80%;
     padding-bottom: 10px;
@@ -80,15 +81,13 @@ header {
 /* HERO IMAGE */
 
 #hero-image {
-    background: url("assets/img/hero-image-mobile.jpg") no-repeat center center;
+    background: url("#") no-repeat center center;
 }
 
 /* CREDIT */
 
 .credit {
-    border: black 5px solid;
-    padding: 10px;
-    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .credit a {
@@ -103,7 +102,7 @@ header {
 .sign-up {
     background-color: rgba(137, 137, 137, 0.395);
     color: white;
-    margin: 5px;
+    margin: 25px;
     padding: 5px 10px;
     font-size: 150%;
     text-transform: uppercase;
@@ -114,15 +113,15 @@ header {
 /* ABOUT */
 
 .heading {
-    font-size: 250%;
+    font-size: 200%;
     text-decoration: underline;
     text-decoration-color: gold;
     color: gold;
-    margin: 20px;
+    padding-bottom: 20px;
 }
 
 #about {
-    border-bottom: 5px black solid;
+    border: 5px #363535 solid;
     width: 90%;
     padding: 20px;
     background-color: black;
@@ -130,7 +129,7 @@ header {
 }
 
 p {
-    font-size: 150%;
+    font-size: 120%;
 }
 
 /* GALLERY */
@@ -141,6 +140,38 @@ strong {
 }
 
 /* FEATURES */
+
+/* FORM */
+
+.form-outer {
+    border: 5px #363535 solid;
+    width: 90%;
+    padding: 10px 20px 20px 20px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.box-style {
+    background: transparent;
+    color: white;
+    border: 2px white solid;
+}
+
+.label {
+    padding: 10px;
+}
+
+#submit {
+    padding: 5px 10px;
+    color: paleturquoise;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #363535;
+    margin-top: 20px;
+}
 
 /* RESPONSIVE */
 
