@@ -20,6 +20,15 @@ body {
     max-width: 100%;
 }
 
+br {
+    height: 2px;
+}
+
+hr {
+    height: 5px;
+    color: white;
+}
+
 /* HEADER */
 
 header {
@@ -149,6 +158,27 @@ strong {
 
 /* FEATURES */
 
+i {
+    border: 5px #363535 solid;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 500%;
+    text-align: center;  
+}
+
+.feature-header {
+    clear: both;
+    font-size: 100%;
+    margin: 10px 0px 20px 0px;
+    padding: 20px;
+    border: 0px black solid;
+}
+
+
 /* FORM */
 
 .form-outer {
@@ -158,6 +188,10 @@ strong {
     padding: 10px 20px 20px 20px;
     background-color: black;
     margin: 0 auto;
+}
+
+.sub-heading {
+    font-size: 100%;
 }
 
 .box-style {
@@ -208,6 +242,10 @@ footer {
         clear: both;
         background-color: #363535;
         text-align: center;
+    }
+
+    li {
+        font-size: 100%;
     }
 
     strong {
