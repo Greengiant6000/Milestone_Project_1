@@ -358,13 +358,17 @@ footer {
         background-color: #363535;
         text-align: center;
     }
-    
+
     #features-inner {
         column-count: 2;
     }
 
     section i {
         font-size: 300%;
+    }
+
+    footer {
+        height: 100px;
     }
 }
 
@@ -417,5 +421,9 @@ footer {
 
     section i {
         font-size: 350%;
+    }
+
+    footer {
+        height: 75px;
     }
 }
