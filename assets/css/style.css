@@ -133,13 +133,18 @@ header {
 
 .sign-up {
     background-color: black;
-    color: white;
-    margin: 15px 25px 25px 25px;
+    color: paleturquoise;
+    margin: 25px;
     padding: 10px;
     font-size: 125%;
     text-transform: uppercase;
     border: 5px gold solid;
     letter-spacing: 2px;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* ABOUT */
@@ -292,10 +297,15 @@ footer {
 
     .sign-up {
         font-size: 200%;
+        padding: 20px;
     }
 
     footer {
         height: 110px;
+    }
+
+    .social-media li a {
+        padding: 10px 60px 10px 60px;
     }
 }
 
@@ -307,11 +317,15 @@ footer {
     }
 
     #title-outer h2 {
-        font-size: 150%;
+        font-size: 200%;
     }
 
     strong {
         font-size: 300%;
+    }
+
+    #about {
+        width: 70%;
     }
 }
 
@@ -319,6 +333,10 @@ footer {
 
     body {
         font-size: 150%;
+    }
+
+    .sign-up {
+        font-size: 200%;
     }
 
     #features-inner {
@@ -340,6 +358,10 @@ footer {
 
     footer {
         height: 100px;
+    }
+
+    .social-media li a {
+        padding: 10px 40px 10px 40px;
     }
 }
 
