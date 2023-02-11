@@ -154,31 +154,36 @@
         <h5 class="sub-heading">Sign up now to reserve your spot!</h5>
         <hr>
         <label for="how">How did you hear about The Dark Castle?</label>
-        <select name="how" id="how" class="box-style" required>
-            <option value="mouth">Word of mouth</option>
-            <option value="email">Email blast</option>
-            <option value="website">The Bygone.Inc website</option>
-            <option value="online">An online advertisement</option>
-            <option value="social">Social media</option>
-            <option value="game">From a Bygone.Inc game</option>
-            <option value="tv">From a Television advertisement</option>
-            <option value="other">Other</option>
-        </select>
-        <br>
+        <div class="select-box">
+            <select name="how" id="how" class="box-style" required>
+                <option value="mouth">Word of mouth</option>
+                <option value="email">Email blast</option>
+                <option value="website">The Bygone.Inc website</option>
+                <option value="online">An online advertisement</option>
+                <option value="social">Social media</option>
+                <option value="game">From a Bygone.Inc game</option>
+                <option value="tv">From a Television advertisement</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
         <label for="play">Have you ever played a Bygone.Inc game before?</label>
-        <select name="play" id="play" class="box-style" required>
-            <option value="uncorruptable">Uncorruptable</option>
-            <option value="blue">The Blue Knight</option>
-            <option value="machine">Machine Soul</option>
-            <option value="aftertouch">Aftertouch</option>
-            <option value="planesailer">Planesailer</option>
-            <option value="no">No</option>
-        </select>
-        <br>
-        <label for="email">Your Email here:</label>
-        <input id="email" name="email" type="email" class="box-style" required>
-        <br>
-        <input type="submit" value="Submit" class="box-style" id="submit">
+        <div class="select-box">
+            <select name="play" id="play" class="box-style" required>
+                <option value="uncorruptable">Uncorruptable</option>
+                <option value="blue">The Blue Knight</option>
+                <option value="machine">Machine Soul</option>
+                <option value="aftertouch">Aftertouch</option>
+                <option value="planesailer">Planesailer</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Your Email here:</label>
+            <input id="email" name="email" type="email" class="box-style" required>
+        </div>
+        <div class="select-box">
+            <input type="submit" value="Submit" class="box-style" id="submit">
+        </div>
     </form>
     
     <!-- FOOTER -->
