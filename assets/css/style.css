@@ -130,8 +130,8 @@ header {
 .sign-up {
     background-color: black;
     color: white;
-    margin: 25px;
-    padding: 5px 10px;
+    margin: 15px 25px 25px 25px;
+    padding: 10px;
     font-size: 125%;
     text-transform: uppercase;
     border: 5px gold solid;
@@ -146,6 +146,7 @@ header {
     text-decoration-color: gold;
     color: gold;
     padding: 10px;
+    margin: 0 auto;
 }
 
 #about {
@@ -158,7 +159,7 @@ header {
 
 /* GALLERY */
 
-.gallery {
+#gallery {
     width: 90%;
     border: 5px #363535 solid;
     margin: 0 auto;
@@ -194,7 +195,7 @@ section i {
     border-radius: 50%;
     background-color: #171717;
     padding: 20px;
-    margin: 5px 0 10px 0;
+    margin: 10px;
     font-size: 400%;
     text-align: center;  
 }
@@ -208,10 +209,10 @@ section i {
 
 /* FORM */
 
-.form-outer {
+#form-outer {
     border: 5px #363535 solid;
     width: 60%;
-    padding: 10px 20px 20px 20px;
+    padding: 20px;
     background-color: black;
     margin: 20px auto;
 }
@@ -296,7 +297,7 @@ footer {
 
     /* 1600px */
 @media only screen and (min-width: 1000px) {
-    
+
     #title {
         font-size: 500%;
     }
@@ -324,7 +325,7 @@ footer {
         font-size: 250%;
     }
 
-    .form-outer {
+    #form-outer {
         width: 70%;
         padding: 20px;
     }
@@ -341,6 +342,10 @@ footer {
     /* 1000px */
 
 @media screen and (max-width: 1000px) {
+
+    #features-inner {
+        column-count: 2;
+    }
 
     section i {
         font-size: 300%;
@@ -361,12 +366,16 @@ footer {
         font-size: 150%;
     }
 
-    #features-inner {
-        column-count: 2;
+    #features-outer {
+        width: 70%;
+    }
+    
+    section i {
+        font-size: 250%;
     }
 
-    .form-outer {
-        width: 90%;
+    #form-outer {
+        width: 80%;
     }
 }
 
@@ -376,7 +385,7 @@ footer {
 
     header {
         height: 75px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         height: 150px;
     }
 
@@ -406,15 +415,15 @@ footer {
         font-size: 125%;
     }
 
-    section i {
-        font-size: 350%;
-    }
-
-    .form-outer {
+    #form-outer {
         width: 90%;
     }
 
     .label {
         padding: 20px;
+    }
+
+    section i {
+        font-size: 350%;
     }
 }
