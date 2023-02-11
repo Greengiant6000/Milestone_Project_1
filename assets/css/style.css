@@ -1,4 +1,4 @@
-/* import link to google fonts here */
+/* Base styling @600px */
 
 /* WILDCARD */
 
@@ -29,6 +29,14 @@ hr {
     color: white;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
 /* HEADER */
 
 header {
@@ -49,7 +57,6 @@ header {
 
 #menu {
     text-transform: uppercase;
-    list-style-type: none;
 }
 
 #menu li {
@@ -138,10 +145,6 @@ header {
     margin: 0 auto;
 }
 
-p {
-    font-size: 120%;
-}
-
 /* GALLERY */
 
 .gallery {
@@ -149,16 +152,19 @@ p {
     border: 5px #363535 solid;
     margin: 0 auto;
     background-color: black;
+    padding-top: 20px;
 }
 
 strong {
+    padding-top: 20px;
+    clear: both;
     font-size: 150%;
     color: gold;
 }
 
 /* FEATURES */
 
-i {
+section i {
     border: 5px #363535 solid;
     height: 125px;
     width: 125px;
@@ -166,25 +172,22 @@ i {
     background-color: black;
     padding: 20px;
     margin: 0 auto;
-    font-size: 500%;
+    font-size: 400%;
     text-align: center;  
 }
 
-.feature-header {
-    clear: both;
+i ~ .feature-header {
     font-size: 100%;
     margin: 10px 0px 20px 0px;
-    padding: 20px;
-    border: 0px black solid;
+    padding: 40px;
+    color: paleturquoise;
 }
-
 
 /* FORM */
 
 .form-outer {
     border: 5px #363535 solid;
     width: 60%;
-    font-size: 120%;
     padding: 10px 20px 20px 20px;
     background-color: black;
     margin: 0 auto;
@@ -192,6 +195,7 @@ i {
 
 .sub-heading {
     font-size: 100%;
+    padding: 10px;
 }
 
 .box-style {
@@ -199,10 +203,11 @@ i {
     color: white;
     border: 2px white solid;
     margin: 5px;
+    clear: both;
 }
 
 .label {
-    padding: 10px;
+    padding: 20px;
 }
 
 #submit {
@@ -211,31 +216,54 @@ i {
     font-size: 125%;
 }
 
+select {
+    padding: 5px;
+}
+
 /* FOOTER */
 
 footer {
     background-color: #363535;
     margin-top: 20px;
+    border: 5px #363535 solid;
+    height: 75px;
+    width: 100vw;
+}
+
+.social-media i {
+    font-size: 300%;
+    color: gold;
+    padding: 10px;
+    text-align: center;
 }
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) and (min-width: 1000px) {
 
-    body {
-        font-size: 75%;
+    /* FEATURES */
+
+    #features {
+        column-count: 2;
     }
+}
+
+
+    /* <599px */
+
+@media screen and (max-width: 599px) {
 
     header {
         height: 75px;
         margin-bottom: 50px;
-
+        height: 150px;
     }
 
     #logo {
         text-align: center;
         padding: 0px;
         margin: 0 auto;
+        font-size: 200%;
     }
 
     #menu {
@@ -244,8 +272,8 @@ footer {
         text-align: center;
     }
 
-    li {
-        font-size: 100%;
+    .heading {
+        font-size: 250%;
     }
 
     strong {
