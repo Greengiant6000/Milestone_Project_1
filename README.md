@@ -1,12 +1,12 @@
 
-## UI/UX
+## UI/UX:
 
 
-### Project Goals
+### Project Goals:
 
 The primary goal of The Dark Castle is designed to wow and amaze it's users, encouraging potential players to sign up to the closed, playable Beta of Bygone.Inc's upcoming title, The Dark Castle.
 
-#### Player goals
+#### Player goals:
 
 The central target audience for this game is young adults, aged 18-25 years old.
 
@@ -61,3 +61,25 @@ As a player of The Dark Castle I want to:
 19. Experience unique level design, so I always feel like I'm exploring, instead of going through gameplay loops and grinding.
 20. Engage with quests, both big and small, whose rewards help me just as much as playing hack and slash style.
 21. Each NPC I meet needs to be realistic and interesting.
+
+#### Design Goals:
+
+The general feel of the game is that it is designed for adults, who are looking for a mature, fantasy experience. The following design choices were made with this in mind:
+
+##### Fonts:
+
+* I used only the Georgia font because I felt it was clear to read but had a build whose ornamentation felt slightly archaic, which is in keepring with the setting of the game: it felt like a more easily legible typewriter font.
+
+##### Icons:
+
+* All icons were chosen in order to provide illustration for the feature headers below them. They were chosen to be understood by any user.
+
+##### Colours:
+
+* My primary colours were dark gray, black and white. They were chosen because they have good contrast with eachother.
+* My secondary colours gold, black, gray and pale turqoise were chosen because they fit well with the pictures in the website. Each colour was given a specific purpose: pale turqoise links and golden titles, with a lighter cloured border that felt like a highlight to the overall body colour.
+
+##### Styling:
+
+* Borders are straight and solid to give a harsh tinge to the containers, so that whilst being accessible in colour, the mature theme of the advertised game is not ignored.
+* Using a repeating container and differing button stlye was useful to convey to the user a clear structure to the website: there is available information on the project but that the developer really wants the potential player to apply for a spot in the closed Beta.
