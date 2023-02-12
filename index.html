@@ -57,8 +57,9 @@
     <article>
         <div id="about">
             <h2 class="heading">About the game</h2>
-            <p>The Dark Castle is a medeival fantasy action/adventure game with RPG elements set in the lost city of Xanadu. You play as an ambitious adventurer in search of the lost treasures of Kubla Kahn. When you reach the fabled entrance to the underground vault you find more than you bargained for... The cave entrance seals itself behind you!
-                <br>Search through a vast open-world with unique locations that hold both asthetic and gameplay changes. Explore ancient caverns and forgotten secrets... Pick through an assortment of classes, levelling up and adding points in unique skill trees. Play with or against your friends. Fight with spell or sword, craft potion and armour, quest high and low, gain a complete set of gameplay altering powers and obtain a cornucopia of rewards, unique from every encounter.
+            <p>The Dark Castle is a 3D medeival fantasy action/adventure game with RPG elements set in the lost city of Xanadu. You play as an ambitious adventurer in search of the lost treasures of Kubla Kahn. When you reach the fabled entrance to the underground vault you find more than you bargained for... The cave entrance seals itself behind you!
+                <br>Search through a vast open-world with unique locations that hold both asthetic and gameplay changes. Explore ancient caverns and forgotten secrets...
+                <br>Pick through an assortment of classes, levelling up and adding points in unique skill trees. Play with or against your friends. Fight with spell or sword, craft potion and armour, quest high and low, gain a complete set of gameplay altering powers and obtain a cornucopia of rewards, unique from every encounter.
                 <br>With ghost and ghoul a plenty, in over 30 hours of heart-wrenching gameplay, you'll be sure to have fun!</p>
         </div>
     </article>
@@ -115,27 +116,27 @@
         <div id="features-inner">      
             <div>
                 <i class="fa-solid fa-face-laugh-wink"></i>
-                <h4 class="feature-heading">Fully Voice Acted</h4>
+                <h4>Fully Voice Acted</h4>
             </div>
             <div>
                 <i class="fa-solid fa-shield"></i>
-                <h4 class="feature-heading">Immersive Combat</h4>
+                <h4>1st Person Combat</h4>
             </div>
             <div>
                 <i class="fa-solid fa-robot"></i>
-                <h4 class="feature-heading">Wicked-space AI</h4>
+                <h4>Br1ll14nt AI</h4>
             </div>
             <div>
                 <i class="fa-solid fa-person-falling"></i>
-                <h4 class="feature-heading">Real-time Physics</h4>
+                <h4>Real-time Physics</h4>
             </div>
             <div>
                 <i class="fa-solid fa-mountain-sun"></i>
-                <h4 class="feature-heading">Rich World Design</h4>
+                <h4>Extensive Lore</h4>
             </div>
             <div>
                 <i class="fa-solid fa-skull-crossbones"></i>
-                <h4 class="feature-heading">Epic Boss Battles</h4>
+                <h4>Epic Boss Battles</h4>
             </div>
             <div>
                 <i class="fa-solid fa-screwdriver-wrench"></i>
@@ -143,15 +144,23 @@
             </div>
             <div>
                 <i class="fa-solid fa-medal"></i>
-                <h4 class="feature-heading">Levels and Skills</h4>
+                <h4>Levels and Skill Trees</h4>
             </div>
             <div>
                 <i class="fa-solid fa-signal"></i>
-                <h4 class="feature-heading">Online Play</h4>
+                <h4>Online Play</h4>
             </div>
             <div>
                 <i class="fa-solid fa-music"></i>
-                <h4 class="feature-heading">Original Score</h4>
+                <h4>Original Score</h4>
+            </div>
+            <div>
+                <i class="fa-regular fa-sun"></i>
+                <h4>Day & Night Cycle</h4>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h4>Realistic Weather</h4>
             </div>
         </div> 
     </section>
@@ -191,18 +200,24 @@
             <label for="email">Your Email here:</label>
             <input id="email" name="email" type="email" class="box-style" required>
         </div>
-        <div>
-            <label for="terms">I understand that I must be at least 18 years old to join the closed Beta.</label>
-            <input type="checkbox" id="terms" required>
+        <hr>
+        <div class="checkbox-outer">
+            <label for="terms" class="checkbox-label">I understand I must be at least 18 years old to join the Beta.</label>
+            <input type="checkbox" id="terms" class="checkbox" required>
         </div>
-        <div>
-            <label for="privacy">I accept the privacy policy regarding my data and data storage.</label>
-            <input type="checkbox" id="privacy" class="box-style">
+        <div class="checkbox-outer">
+            <label for="privacy" class="checkbox-label">I accept Bygone.Inc's privacy policy regarding my data.</label>
+            <input type="checkbox" id="privacy" class="checkbox" required>
         </div>
-        <div>
-            <label for="agree">By applying for the closed Beta you sign a legally binding non-disclosure form saying that you can only share details of your experience with The Dark Castle with the developers.</label>
-            <input type="checkbox" id="agree" class="box-style" required>
+        <div class="checkbox-outer">
+            <label for="agree" class="checkbox-label">I agree not to disclose details about the game if accepted into the Beta.</label>
+            <input type="checkbox" id="agree" class="checkbox" required>
         </div>
+        <div class="checkbox-outer">
+            <label for="updates" class="checkbox-label">I want to receive email notifications regarding The Dark Castle.</label>
+            <input type="checkbox" id="updates" class="checkbox">
+        </div>
+        <hr>
         <div class="select-box">
             <input type="submit" value="Submit" class="box-style" id="submit">
         </div>

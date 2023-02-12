@@ -21,11 +21,12 @@ body {
 }
 
 br {
-    height: 2px;
+    line-height: 10px;
 }
 
 hr {
     height: 5px;
+    margin: 20px;
     color: white;
 }
 
@@ -192,11 +193,6 @@ strong {
     background-color: black;
 }
 
-#features-inner {
-    width: 100%;
-    padding: 10px;
-}
-
 section i {
     border: 5px #363535 solid;
     height: 125px;
@@ -209,11 +205,8 @@ section i {
     text-align: center;  
 }
 
-.feature-header {
-    font-size: 100%;
-    margin: 10px;
-    padding: 20px;
-    color: paleturquoise;
+i ~ h4 {
+    clear: both;
 }
 
 /* FORM */
@@ -231,7 +224,7 @@ section i {
 }
 
 .sub-heading {
-    font-size: 100%;
+    font-size: 90%;
     padding: 5px;
 }
 
@@ -243,8 +236,22 @@ section i {
     clear: both;
 }
 
-.label {
-    padding: 20px;
+.checkbox-outer {
+    margin: 5px;
+    overflow: visible;
+    line-height: 30px;
+}
+
+.checkbox-label {
+    font-size: 60%;
+    text-align: left;
+    float: left;
+    width: 90%;
+    line-height: 15px;
+}
+
+.checkbox {
+    line-height: 25px;
 }
 
 #submit {
@@ -327,12 +334,25 @@ footer {
     #about {
         width: 70%;
     }
+
+    .checkbox-outer {
+        margin: 40px;
+    }
+
+    .checkbox-label {
+        font-size: 100%;
+        line-height: 30px;
+    }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1599px) {
 
     body {
         font-size: 150%;
+    }
+
+    hr {
+        margin: 30px;
     }
 
     .sign-up {
@@ -431,6 +451,14 @@ footer {
 
     .sign-up {
         font-size: 125%;
+    }
+
+    #features-outer {
+        width: 70%;
+    }
+
+    #features-inner {
+        column-count: 1;
     }
 
     #form-outer {
