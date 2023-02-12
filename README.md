@@ -1,3 +1,4 @@
+# The Dark Castle README.md file
 
 ## UI/UX:
 
@@ -5,7 +6,7 @@
 
 The primary goal of The Dark Castle is designed to wow and amaze it's users, encouraging potential players to sign up to the closed, playable Beta of Bygone.Inc's upcoming title, The Dark Castle.
 
-#### User goals:
+#### User Goals:
 
 The central target audience for this website is a potential candidate for this closed Beta. Young adults, aged 18-25 years old.
 
@@ -46,29 +47,68 @@ As a user of The Dark Castle website I want to:
 8. Have a landing page to explore alongside my friends so i can show them the project.
 9. Have more content to explore at a later date.
 
-#### Design Goals:
+### Design Goals:
 
 The general feel of the website is that it is designed for young adults, who are looking for a sneak peek into the upcoming project, The Dark Castle. The following design choices were made with this in mind:
 
-##### Fonts:
+###### Fonts:
 
 * I used the **Georgia** font because I felt it was clear to read but had a build whose letters' ornamentation felt slightly archaic, offering a more easily legible typewriter font.
 
-##### Icons:
+###### Icons:
 
 * All icons were chosen in order to provide illustration for the feature headers below them. They were chosen to be understood by any user.
 
-##### Colours:
+###### Colours:
 
 * My primary colours were **dark gray**, **black** and **white**. They were chosen because they have good contrast with eachother.
 * My secondary colours **gold**, **gray** and **pale turqoise** were chosen because they fit well with the pictures in the website. Each colour was given a specific purpose: pale turqoise links and golden titles, with a lighter cloured border that felt like a highlight to the overall body colour.
 
-##### Styling:
+###### Styling:
 
 * Borders are straight and solid to give a harsh tinge to the containers, so that whilst being accessible in colour, the mature theme of the advertised game is not ignored.
 * Using a repeating container and differing button stlye was useful to convey to the user a clear structure to the website: there is available information on the project but that the developer really wants the potential player to apply for a spot in the closed Beta.
 
-##### Images:
+###### Images:
 
 * The images used were chosen because they embodied a mystical and even psychadelic tone, suggesting themes of magic, intrigue and, in extreme cases, horror to the potential player.
+
+###### Backgrounds:
+
+* The colour **black** was used as the background colour for each of the sections and the article because the white text on black background provides maximum contrast for readability.
+* The **dark gray** colour was used to blanket the entire body of the page because it doesn't strain the eyes as much as a white background and contrasts with the **gold** and **pale turquoise** well too.
+
+##### User Stories:
+
+As a user elegible for the closed Beta, I want to:
+
+1. Navigate the site easily, finding the structure of the website clear.
+2. Understand the purpose of the website easily.
+3. Find that the website functions properly and has no bugs in it.
+4. Find the website asthetically pleasing.
+5. Be able to read the information provided easily.
+6. Be able to interact with the webpage.
+7. Sign up for the closed Beta without any glitches or faf.
+8. Get excited by the concept art and any other media available.
+9. Be able to download any pictures or videos for later use.
+10. Enable notifications, so that any newly added content can be viewed.
+11. Find out about what the game offers so that the decision to sign up for the closed Beta is as informed as possible, including system requirements, in case I can't play it on my device.
+
+As a user not elegible for the closed Beta, I want to:
+
+1. Navigate the site easily, finding the structure of the website clear.
+2. Understand the purpose of the website easily.
+3. Find that the website functions properly and has no bugs in it.
+4. Find the website asthetically pleasing.
+5. Be able to read the information provided easily.
+6. Be able to interact with the webpage.
+7. Get excited by the concept art and any other media available.
+8. Be able to download any pictures or videos for later use.
+9. Enable notifications, so that any newly added content can be viewed.
+
+##### Wireframes
+
+The Wireframes were created using [Balsamiq](https://balsamiq.com/) during the initial design part of the planning process.
+
+* [My Wireframes](https://balsamiq.cloud/s3kqugq/prtiabn/rDB97)
 
