@@ -455,3 +455,10 @@ The entirety of my testing was done using CDT. I used it obsessively and compuls
     * I found that Bootstrap provided additional styling, which gave each icon a strange "_" between them.
     * The site was asthetically unpleasing because of this.
     * I fixed this by overwriting this Bootstrap styling with custom CSS: li a {text-decoration: none;}
+
+9. Responsive Code: Container widths:
+
+    * I expected my containers to look good at width: 90% on larger screen sizes.
+    * I found that there were too much blank space inside these containers at larger screen sizes.
+    * The site was asthetically unpleasing because of this.
+    * I added custom CSS to mitigate this in the about, features and form sections using media queries: between 600 and 1000px and from 1000 to 1600px and above.

@@ -67,7 +67,7 @@ header {
     text-decoration: none;
     color: gold;
 
-    /* "text-align: center;" and "margin: 0 auto;" have been credited in my README.md file
+    /* "text-align: center;" and "margin: 0 auto;" have come from Code Institute's Love Running course:
     https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/
     https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/
     */
@@ -133,7 +133,7 @@ strong {
 
 #hero-image {
 
-    /* "object-fit: scale-down;" has been credited in my README.md file
+    /* "object-fit: scale-down;" came from a page on W3S:
     https://www.w3schools.com/css/css3_object-fit.asp
     */
 
@@ -215,7 +215,7 @@ section i {
     text-align: center;  
 }
 
-/* The ~ symbol has been credited in my README.md file
+/* The ~ symbol has come from W3S:
 https://www.w3schools.com/css/css_combinators.asp
 */
 
@@ -294,7 +294,7 @@ footer {
     color: gold;
     padding: 10px;
 
-    /* "text-align: center;" has been credited in my README.md file 
+    /* "text-align: center;" has come from Code Institute's Love Running course:
     https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/
     */
 
@@ -365,7 +365,8 @@ footer {
     }
 }
 
-/* Combining media queries (max and min) came from an [Email on Acid](https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/#:~:text=Max%2Dwidth%20and%20min%2Dwidth,specific%20devices%20with%20known%20widths.) post
+/* Combining media queries (max and min) came from an Email on Acid:
+https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/#:~:text=Max%2Dwidth%20and%20min%2Dwidth,specific%20devices%20with%20known%20widths.
 */
 
 @media only screen and (min-width: 1000px) and (max-width: 1599px) {
