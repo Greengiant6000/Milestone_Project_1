@@ -309,4 +309,93 @@ I troubleshooted on Stack Overflow: [Stack Overflow](https://stackoverflow.com/q
     * Hero Image: [Hero Image](https://www.123rf.com/free-photo_197231045_surreal-image-of-man-standing-in-the-ocean-with-giant-tentacles-.html?vti=mh0rl5yu8pj8urtmi3-1-111). User: [Virtosmedia](https://www.123rf.com/profile_virtosmedia).
     * Gallery Images: [Image 1](https://www.123rf.com/free-photo_191412018_dark-medieval-castle-dungeon-tunnel-dark-underground-corridor-in-a-dungeon-with-light.html?vti=mchauby72ckqb4dc7n-1-52) was made by [Slonme](https://www.123rf.com/profile_slonme) and [Image 2](https://www.123rf.com/free-photo_197244399_halloween-spooky-background-with-spooky-gothic-castle.html?vti=nz0jlgeoey9ur3rph1-1-51) and [Image 3](https://www.123rf.com/free-photo_197238737_mysterious-dark-forest-at-night-with-full-moon-vector-illustration.html?vti=ocdcqkap52yfrmqu56-1-122) were provided by [Virtosmedia](https://www.123rf.com/profile_virtosmedia).
 
-## Deployment
+## Deployment:
+
+## Testing:
+
+### Validation:
+
+* [W3S HTML validator](https://validator.w3.org/).
+* [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/).
+    * The developer used these sites to check the validity of the website code.
+
+### User Stories Testing:
+
+Most common pathing through the website:
+
+* Home > About > Gallery > Sign Up
+* Each of these sections are labelled in the navbar, with well labelled call-to-action, sign up buttons placed between each of the major sections preceding the sign up section itself.
+
+The features section has been included to promote good flow within the website. It is purely asthetic and holds no interactivity. It is a section designed to be easily consumable when scrolling past.
+
+### Testing User Stories from UX section of README.md:
+
+1. Navigate the site easily, finding the structure of the website clear.
+
+    * With a short scroll up, the navbar can be easily accessed.
+    * The logo links back to the top as well as the Home button.
+    
+2. Understand the purpose of the website easily.
+
+    * The purpose of the site is clear.
+
+3. Find that the website functions properly and has no bugs in it.
+
+    * There are no code breaking bugs in the website.
+
+4. Find the website asthetically pleasing.
+
+    * The colour scheme is in keeping with the images present.
+    * The colour scheme includes splashes and tints of highlighting colours.
+
+5. Be able to read the information provided easily.
+
+    * The contrast between the content and their backgrounds makes reading and viewing easy.
+
+6. Be able to interact with the webpage.
+
+    * The gallery, sign up buttons and form provide interaction for the user.
+
+7. Sign up for the closed Beta without any glitches or faf.
+
+    * There are as few required input fields as possible in order to streamline the process of filling out the form.
+
+8. Get excited by the concept art and any other media available.
+
+    * The media available is high quality, of a large resolution and scales up to desktop devices well.
+
+9. Be able to download any pictures or videos for later use.
+
+    * This was difficult to do as instead of there being a download button on the pictures, I had to right-click with the mouse on the picture in question and download it that way.
+
+10. Enable notifications, so that any newly added content can be viewed.
+
+    * There was no prompt on my browser that would enable me to receive push notifications.
+
+11. Find out about what the game offers so that the decision to sign up for the closed Beta is as informed as possible, including system requirements, in case I can't play it on my device.
+
+    * There was a paragraph of text outlining the setting, plot and features of the game.
+    * There were pieces of concept art available for consumption.
+    * There were a bunch of features that looked really good listed to see.
+
+### Testing With DevTools:
+
+The entirety of my testing was done using CDT. I used it obsessively and compulsively, testing every new feature I added at each of my breakpoints, once I added breakpoints. I used CDTs to properly assess my bugs, refreshing my page constantly to ensure every new line of CSS looked how I wanted it to. I spent a lot of time playing with the padding and margins of my divs. CDTs helped me streamline my padding and margins between containers and sections a lot. I used them to add responsiveness too. I built my initial site at 600px and my Mentor advised me that mobile starts at 375px. I added an under 600px media query. I then added a laptop sized breakpoint at 1000px. Finally, I added the desktop breakpoint at 1600px. CDT was my best friend during this process. For instance:
+
+1. Features:
+    * I expected to find my features with their headings underneath them at every level of responsiveness.
+    * Instead I found that the title was glitching around the breakpoints and moving out of alignment with their appropriate icons.
+    * The site was asthetically unpleasing because of this.
+    * I had made a mathmatical error: by implementing 4 additional features, bringing my total from 8 to 12, the column count of 1/2/3/4 respectively (as the resolution of the screen grows) made no error since 12 is divisable by all these numbers: 1, 2, 3 and 4.
+
+2. Overflow:
+    * I expected to have 1 scroll wheel along the Y-axis on the right side.
+    * Having set the body of my website to "max-width: 100%;" it came as a surprise to me when i found a bug with this code: there was an X-axis scroll along the bottom of my page.
+    * The site was asthetically unpleasing because of this.
+    * I added an "overflow: hidden;" command to my body selector in my custom CSS. This removed the strange margin.
+
+3. Title:
+    * I expected my h1 heading to be placed in the middle of my screen.
+    * I found that my navbar was clipping into the title's space.
+    * The site was asthetically unpleasing because of this.
+    * I overwrote the default h1 "margin: 0.5rem;" Bootstrap styling with my own custom CSS.
