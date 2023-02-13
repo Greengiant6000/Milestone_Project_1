@@ -60,7 +60,6 @@ header {
     height: 75px;
     width: 100vw;
     padding-left: 20px;
-    overflow: none;
 }
 
 #logo {
@@ -151,12 +150,13 @@ header {
 .sign-up {
     background-color: black;
     color: paleturquoise;
-    margin: 25px;
+    margin: 20px auto;
     padding: 10px;
     font-size: 125%;
     text-transform: uppercase;
     border: 5px gold solid;
     letter-spacing: 2px;
+    max-width: 70%;
 }
 
 .sign-up a {
