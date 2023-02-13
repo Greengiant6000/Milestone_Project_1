@@ -122,6 +122,13 @@ header {
     letter-spacing: 5px;
 }
 
+strong {
+    padding-top: 20px;
+    clear: both;
+    font-size: 150%;
+    color: gold;
+}
+
 /* HERO IMAGE */
 
 #hero-image {
@@ -184,21 +191,7 @@ header {
     margin: 0 auto;
 }
 
-/* GALLERY */
-
-#gallery {
-    width: 90%;
-    border: 5px #363535 solid;
-    margin: 0 auto;
-    background-color: black;
-}
-
-strong {
-    padding-top: 20px;
-    clear: both;
-    font-size: 150%;
-    color: gold;
-}
+/* GALLERY section holds no specific CSS */
 
 /* FEATURES */
 

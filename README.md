@@ -400,21 +400,58 @@ The features section has been included to promote good flow within the website. 
 
 The entirety of my testing was done using CDT. I used it obsessively and compulsively, testing every new feature I added at each of my breakpoints, once I added breakpoints. I used CDTs to properly assess my bugs, refreshing my page constantly to ensure every new line of CSS looked how I wanted it to. I spent a lot of time playing with the padding and margins of my divs. CDTs helped me streamline my padding and margins between containers and sections a lot. I used them to add responsiveness too. I built my initial site at 600px and my Mentor advised me that mobile starts at 375px. I added an under 600px media query. I then added a laptop sized breakpoint at 1000px. Finally, I added the desktop breakpoint at 1600px. CDT was my best friend during this process. For instance:
 
-1. Features:
-    * I expected to find my features with their headings underneath them at every level of responsiveness.
-    * Instead I found that the title was glitching around the breakpoints and moving out of alignment with their appropriate icons.
-    * The site was asthetically unpleasing because of this.
-    * I had made a mathmatical error: by implementing 4 additional features, bringing my total from 8 to 12, the column count of 1/2/3/4 respectively (as the resolution of the screen grows) made no error since 12 is divisable by all these numbers: 1, 2, 3 and 4.
+1. Body: Overflow:
 
-2. Overflow:
     * I expected to have 1 scroll wheel along the Y-axis on the right side.
     * Having set the body of my website to "max-width: 100%;" it came as a surprise to me when i found a bug with this code: there was an X-axis scroll along the bottom of my page.
     * The site was asthetically unpleasing because of this.
     * I added an "overflow: hidden;" command to my body selector in my custom CSS. This removed the strange margin.
 
-3. Title:
+2. Navbar: Clear:
+
+    * I expected my navbar to fit all screen sizes.
+    * Having placed in only one breakpoint, I'd not realised that my navbar would be squashed as I lessened the screen real estate on the X-axis.
+    * The site was asthetically unpleasing because of this.
+    * I added the clear: both; command to the navbar and some extra room in the height of my navbar to eject my navbar onto a second line that still fit within the header.
+
+3. Title: Bootstrap:
+
     * I expected my h1 heading to be placed in the middle of my screen.
     * I found that my navbar was clipping into the title's space.
     * The site was asthetically unpleasing because of this.
-    * I overwrote the default h1 "margin: 0.5rem;" Bootstrap styling with my own custom CSS.
+    * I overwrote the default h1 "margin: 0.5rem;" Bootstrap styling with my own custom CSS: margin-top: 20px;.
 
+4. About: UX:
+
+    * I expected my about section to look good, even when I added more text.
+    * After the third edit, I found that 1 big block of text was hard to consume.
+    * The site had a poor UX due to this.
+    * I fixed this by adding br tags in 2 key places: when the subject changed, I put in a br tag. 
+
+5. Gallery: UI:
+
+    * I expected the same container format I used for my About section would look good for my gallery.
+    * I found that not allowing the images in the carousel to scale-down according to the entire width of the screen, the styling limited its presence.
+    * The site was asthetically unpleasing because of this.
+    * I fixed this by removing the container styling.
+
+6. Features: UX:
+
+    * I expected to find my features with their headings underneath them at every level of responsiveness.
+    * Instead I found that the title was glitching around the breakpoints and moving out of alignment with their appropriate icons.
+    * The site was asthetically unpleasing because of this.
+    * By implementing 4 additional features, bringing my total from 8 to 12, the column count of 1/2/3/4 respectively (as the resolution of the screen grows) made no error since 12 is divisable by all these numbers: 1, 2, 3 and 4.
+
+7. Form: Checkboxes:
+
+    * I expected my checkboxes and text labels to be laterally equal.
+    * My checkboxes ran underneath my text labels.
+    * The site's functionality was questionable because of this and it was also asthetically unpleasing.
+    * I fixed this problem using this piece of custom CSS: .checkbox-label {width: 90%;}
+
+8. Footer: Text-decoration:
+
+    * I expected my footer icons for social media sites to appear without text-decoration.
+    * I found that Bootstrap provided additional styling, which gave each icon a strange "_" between them.
+    * The site was asthetically unpleasing because of this.
+    * I fixed this by overwriting this Bootstrap styling with custom CSS: li a {text-decoration: none;}
