@@ -249,7 +249,7 @@ I found the fix on this video: [Code Institute](https://learn.codeinstitute.net/
 1. The submit button issues:
 
     * The submit button on my form wouldn't send me anywhere.
-    * I couldn't figure out how to fix it without adding Javascript code per my troubleshooting.
+    * The onclick attribute that my troubleshooting query suggested might work required JavaScript to function and was therefore unavailable to me.
 
     Code:
 
@@ -259,3 +259,54 @@ I found the fix on this video: [Code Institute](https://learn.codeinstitute.net/
 
 I troubleshooted on google: [W3S](https://www.w3schools.com/css/css_link.asp)
 
+2. Form dropdown background colour issues:
+
+    * I found that even though I'd styled the background colour black on the page itself, the dropdown automatically came with a white background.
+    * I ran out of time to fix this minor issue entirely. However, I mitigated it slightly by changing the text colour from white to pale turqoise. That way, the text was still clearly legible on the page and was at least slightly visible on the dropdown menu.
+
+    Original Code:
+
+    .box-style {
+        background: transparent;
+        color: paleturquoise;
+        border: 2px white solid;
+        margin: 5px;
+        clear: both;
+    }
+
+    Final Code:
+
+    .box-style {
+        background: transparent;
+        color: paleturquoise;
+        border: 2px white solid;
+        margin: 5px;
+        clear: both;
+    }
+
+I troubleshooted on Stack Overflow: [Stack Overflow](https://stackoverflow.com/questions/17752573/changing-the-background-color-of-a-drop-down-list-transparent-in-html)
+
+### Code:
+
+* Template code for multi-card carousel using bootstrap classes taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/carousel/) and modified to suit my needs with custom CSS.
+* Linking to different places on the same page using the "#" symbol came from [Computer Hope](https://www.computerhope.com/issues/ch000049.htm#:~:text=Use%20the%20%23id%20selector%20from,selector%20to%20the%20page's%20URL.)
+* I got the display: inline command from Code Institute's [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/) project.
+* Targeting siblings with a "~" symbol came from a post on [W3S](https://www.w3schools.com/css/css_combinators.asp).
+* I found the text-align: center; property and target="_blank" attribute on Code Institute's [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/) project.
+* I found the object-fit: scale-down; fix on [W3S](https://www.w3schools.com/css/css3_object-fit.asp).
+* I found the margin: 0 auto; line from the Code Institute [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/) project.
+* Combining media queries (max and min) came from an [Email on Acid](https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/#:~:text=Max%2Dwidth%20and%20min%2Dwidth,specific%20devices%20with%20known%20widths.) post.
+
+## Credits:
+
+### Content:
+
+* All text on the site was written by me.
+
+### Media:
+
+* All images were taken from [123rf](https://www.123rf.com/).
+    * Hero Image: [Hero Image](https://www.123rf.com/free-photo_197231045_surreal-image-of-man-standing-in-the-ocean-with-giant-tentacles-.html?vti=mh0rl5yu8pj8urtmi3-1-111). User: [Virtosmedia](https://www.123rf.com/profile_virtosmedia).
+    * Gallery Images: [Image 1](https://www.123rf.com/free-photo_191412018_dark-medieval-castle-dungeon-tunnel-dark-underground-corridor-in-a-dungeon-with-light.html?vti=mchauby72ckqb4dc7n-1-52) was made by [Slonme](https://www.123rf.com/profile_slonme) and [Image 2](https://www.123rf.com/free-photo_197244399_halloween-spooky-background-with-spooky-gothic-castle.html?vti=nz0jlgeoey9ur3rph1-1-51) and [Image 3](https://www.123rf.com/free-photo_197238737_mysterious-dark-forest-at-night-with-full-moon-vector-illustration.html?vti=ocdcqkap52yfrmqu56-1-122) were provided by [Virtosmedia](https://www.123rf.com/profile_virtosmedia).
+
+## Deployment

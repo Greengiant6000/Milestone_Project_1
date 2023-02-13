@@ -1,5 +1,3 @@
-/* Base styling @600px */
-
 /* WILDCARD */
 
 * {
@@ -39,6 +37,10 @@ ul {
 }
 
 li {
+
+    /* I got the display: inline command from Code Institute's [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/) project.
+    */
+
     display: inline;
 }
 
@@ -66,9 +68,15 @@ header {
     float: left;
     text-decoration: none;
     color: gold;
+
+    /* "text-align: center;" and "margin: 0 auto;" have been credited in my README.md file
+    https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/
+    https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/
+    */
+
     text-align: center;
-    padding: 0px;
     margin: 0 auto;
+    padding-left: 20px;
     font-size: 200%;
 }
 
@@ -117,6 +125,11 @@ header {
 /* HERO IMAGE */
 
 #hero-image {
+
+    /* "object-fit: scale-down;" has been credited in my README.md file
+    https://www.w3schools.com/css/css3_object-fit.asp
+    */
+
     object-fit: scale-down;
 }
 
@@ -208,6 +221,10 @@ section i {
     text-align: center;  
 }
 
+/* The ~ symbol has been credited in my README.md file
+https://www.w3schools.com/css/css_combinators.asp
+*/
+
 i ~ h4 {
     clear: both;
 }
@@ -233,7 +250,7 @@ i ~ h4 {
 
 .box-style {
     background: transparent;
-    color: white;
+    color: paleturquoise;
     border: 2px white solid;
     margin: 5px;
     clear: both;
@@ -286,6 +303,11 @@ footer {
     font-size: 300%;
     color: gold;
     padding: 10px;
+
+    /* "text-align: center;" has been credited in my README.md file 
+    https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/
+    */
+
     text-align: center;
 }
 
@@ -352,6 +374,9 @@ footer {
         line-height: 30px;
     }
 }
+
+/* Combining media queries (max and min) came from an [Email on Acid](https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/#:~:text=Max%2Dwidth%20and%20min%2Dwidth,specific%20devices%20with%20known%20widths.) post
+*/
 
 @media only screen and (min-width: 1000px) and (max-width: 1599px) {
 
