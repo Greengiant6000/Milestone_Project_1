@@ -311,6 +311,24 @@ I troubleshooted on Stack Overflow: [Stack Overflow](https://stackoverflow.com/q
 
 ## Deployment:
 
+This project was created using [GitPod](https://www.gitpod.io/), committed to git and pushed to GitHub using the built in function within GitPod.
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Greengiant6000?tab=repositories), the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories shown on the screen, select **Greengiant6000/Milestone_Project_1**
+3. From the menu items near the top of the page, select the **Settings** tab.
+4. Scroll down until, on the left hand navigation bar, you see **GitHub Pages**.
+5. Under the **Source** heading, click the dropdown menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch, the page is automatically refreshed and the website is now deployed.
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the delpoyed website.
+
+### How to run this project locally:
+
+To clone this project into GitPod, you will need:
+
+1. A GitHub account. [Create a GitHub account here!](https://github.com/)
+
 ## Testing:
 
 ### Validation:
@@ -399,3 +417,4 @@ The entirety of my testing was done using CDT. I used it obsessively and compuls
     * I found that my navbar was clipping into the title's space.
     * The site was asthetically unpleasing because of this.
     * I overwrote the default h1 "margin: 0.5rem;" Bootstrap styling with my own custom CSS.
+
